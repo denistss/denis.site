@@ -1,0 +1,17 @@
+site_name: DENIS T. SILVA
+theme:
+  name: null
+  custom_dir: 'cinder'
+nav:
+    - Home: index.md
+    - Git-GitHub: git.md
+    - Python:
+      - 'Scripts Python': 'python/python.md'
+      - 'Freamework Flask': 'python/flask.md'
+    - JavaScript: javascript.md
+    - Ambiente Virtual:
+      - 'virtualenv':virtualenv.md
+      - 'venv':virtualenv2.md
+    - Banco de Dados:
+      - 'SQL Server': 'bancodados/sqlserver.md'
+    - FICO Systems: fico.md
