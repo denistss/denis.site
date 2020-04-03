@@ -5,11 +5,11 @@
 ```
 C:\Users\denis\Environments\Flask_Form>python -m venv <nome_de_sua_env>
 ```
->Após criado seu ambiente virtual digite o comando abaixo para entrar na _env_ criada;
+>Apï¿½s criado seu ambiente virtual digite o comando abaixo para entrar na _env_ criada;
 ```
 C:\Users\denis\Environments\Flask_Form><nome_de_sua_env>\Scripts\activate
 ```
->Sua _env_ estará ativada:
+>Sua _env_ estara ativada:
 ```
 (<nome_de_sua_env>) C:\Users\denis\Environments\Flask_Form>
 ```

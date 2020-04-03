@@ -2,23 +2,23 @@
 
 ###Criando Ambiente Virtual _virtualenv_ no Windows
 
-Considerando que você já tem o Python instalado, bem como as variáveis de ambiente e o “pip”, siga o procedimento a seguir.
+Considerando que voce ja tem o Python instalado, bem como as variaveis de ambiente e o pip, siga o procedimento a seguir.
 
-– Instalar pacote para criação de ambientes virtuais
+>Instala pacote para criaÃ§Ã£o de ambientes virtuais
 ```
 pip install virtualenv
 ```
-– Instalar pacote para gerenciamento dos ambientes virtuais
+>Instalar pacote para gerenciamento dos ambientes virtuais
 ```
 pip install virtualenvwrapper-win
 ```
-– Crie um ambiente virtual
+> Crie um ambiente virtual
 ```
 mkvirtualenv nome_do_ambiente
 ```
-– Ative o ambiente virtual recém criado
+> Ative o ambiente virtual recÃ©m criado
 ```
 workon nome_do_ambiente
 ```
 
-Agora é só instalar os pacotes que deseja ter nesse ambiente virtual que você acabou de criar e ativar. Você pode ter quantos ambientes desejar e eles, por padrão, ficam dentro no diretório Envs dentro da pasta do usuário. Por exemplo: C:\Users\user\Envs
+> Agora Ã© sÃ³ instalar os pacotes que deseja ter nesse ambiente virtual que vocÃª acabou de criar e ativar. VocÃª pode ter quantos ambientes desejar e eles, por padrÃ£o, ficam dentro no diretÃ³rio Envs dentro da pasta do usuÃ¡rio. Por exemplo: C:\Users\user\Envs

@@ -4,17 +4,17 @@ theme:
   custom_dir: 'cinder'
 nav:
     - Home: index.md
-    - Projetos: bethehero.md
+    - Projetos: projetos/bethehero.md
     - Git-GitHub: git.md
     - Python:
       - 'Scripts Python': 'python/python_scripts.md'
       - 'Freamework Flask': 'python/flask_first.md'
     - NodeJS:
-      - 'Express-Postgres':'postgress_node.md' 
+      - 'Express-Postgres': 'nodejs/postgress_node.md' 
     - JavaScript: javascript_scripts.md
     - Ambiente Virtual:
-      - 'virtualenv':virtualenv.md
-      - 'venv':virtualenv2.md
+      - 'virtualenv': 'virtualenv.md'
+      - 'venv': 'virtualenv2.md'
     - Banco de Dados:
       - 'SQL Server': 'bancodados/sqlserver.md'
     - FICO Systems: fico.md
