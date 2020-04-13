@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="../../img/favicon.ico">
+
+    
+    <title>Scripts Python - DENIS T. SILVA</title>
+    
+
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
+    <link href="../../css/highlight.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../..">DENIS T. SILVA</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../projetos/bethehero/">Projetos</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../git/">Git-GitHub</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Python <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="./">Scripts Python</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../flask_first/">Freamework Flask</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">NodeJS <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../nodejs/postgress_node/">Express-Postgres</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../javascript_scripts/">JavaScript</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ambiente Virtual <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../virtualenv/">virtualenv</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../virtualenv2/">venv</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Banco de Dados <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../bancodados/sqlserver/">SQL Server</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../fico/">FICO Systems</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../../git/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../flask_first/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#graficos-em-python">Gráficos em Python</a></li>
+            <li class="second-level"><a href="#importando-bibliotecas-python">Importando Bibliotecas Python</a></li>
+                
+            <li class="second-level"><a href="#codigos-de-criacao-e-manipulacao-de-graficos">Códigos de Criação e Manipulação de Gráficos</a></li>
+                
+        <li class="first-level "><a href="#manipulando-loops-em-python">Manipulando loops em Python</a></li>
+            <li class="second-level"><a href="#loops-aninhados">loops aninhados</a></li>
+                
+            <li class="second-level"><a href="#operando-valores-em-lista-usando-for">Operando valores em lista usando for</a></li>
+                
+            <li class="second-level"><a href="#loops-em-listas-dentro-de-listas">loops em listas dentro de listas</a></li>
+                
+            <li class="second-level"><a href="#contar-a-quantidade-de-itens-de-uma-lista">Contar a quantidade de itens de uma lista</a></li>
+                
+            <li class="second-level"><a href="#contar-a-quantidade-de-colunas-de-um-item-da-lista">Contar a quantidade de colunas de um item da lista</a></li>
+                
+            <li class="second-level"><a href="#pesquisando-em-listas">Pesquisando em listas</a></li>
+                
+            <li class="second-level"><a href="#usando-while-para-contar-de-0-a-5">Usando while para contar de 0 a 5</a></li>
+                
+            <li class="second-level"><a href="#usando-else-para-dar-stop-de-loop">Usando else para dar stop de loop</a></li>
+                
+            <li class="second-level"><a href="#pular-iteracoes-em-um-loop">Pular iterações em um loop</a></li>
+                
+            <li class="second-level"><a href="#exemplo-de-verificacao-de-numero-primo-atraves-de-loops">Exemplo de verificação de número primo através de loops</a></li>
+                
+            <li class="second-level"><a href="#usando-range-para-contagem-decrescente">Usando Range para contagem decrescente</a></li>
+                
+            <li class="second-level"><a href="#usando-range-para-imprimir-os-itens-da-lista">Usando Range para imprimir os itens da lista</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="graficos-em-python">Gráficos em Python</h1>
+<h2 id="importando-bibliotecas-python">Importando Bibliotecas Python</h2>
+<pre><code class="python">%matplotlib inline --&gt; #Inicia a ferramenta do python;
+
+import pandas as pd --&gt; #Importa a biblioteca pandas e dá o apelido 'pd';
+
+import matplotlib.pyplot as plt --&gt; #Importa a biblioteca matplotlib e dá um apelido 'plt';
+
+import seaborn as sns ---&gt; #Importa a biblioteca Seaborn e dá um apelido 'sns';
+
+plt.style.use('ggplot') ---&gt; #Configura a plotagem do gráfico;
+</code></pre>
+
+<h2 id="codigos-de-criacao-e-manipulacao-de-graficos">Códigos de Criação e Manipulação de Gráficos</h2>
+<pre><code class="python">#Criar uma variável para inserir o Dataset(base de dados para análise);
+nome_variavel = pd.read_csv('nome_arquivo.csv')
+
+#Visualizar a quantidade de linhas da tabela de dados do Dataset;
+nome_variavel.head(numero_linhas)
+
+#Visualizar informações das colunas;
+nome_variavel.describe()
+
+#Visualizar tipo de dado de cada coluna;
+nome_variavel.dtypes
+
+#Visualizar quantidades de linhas e colunas do Dataset;
+nome_variavel.shape
+
+#Visualizar quantidades de uma ou várias colunas;
+nome_variavel['Nome_coluna'].value_counts()
+
+#Plotar um gráfico simples de coluna e valores usando a biblioteca pandas/matplotlib, usando o código de plotagem '.plot()';
+nome_variavel['Nome_coluna'].value_counts().plot
+
+#Plotar um gráfico visualmente elaborado em uma linha de código;
+nome_variavel['Nome_coluna'].value_counts().head(10).plot(kind='bar', figsize=(11,5), grid=False, rot=0, color='blue')
+
+kind
+#Informa o tipo de gráfico a ser criado, neste caso tipo barra (bar);
+
+figsize
+#Informa o tamanho que deseja criar o gráfico, necessario informar em Tupla (0,0), entre parenteses;
+
+grid
+#Informa se deseja colocar linhas de grade na plotagem, neste caso não será adicionado, então fica False;
+
+rot
+#Informa o grau de rotação que os dados do eixo X vão ficar, neste caso será reto sem inclinação, valor 0;
+
+color
+#Informa a cor que deseja colocar no gráfico, neste caso azul (blue);
+
+#Plotar um gráfico com Títulos e legendas;
+plt.title('Título do Gráfico')
+plt.xlabel('Legenda do Eixo X')
+plt.ylabel('Legenda do Eixo Y')
+plt.show() #Plota o gráfico
+</code></pre>
+
+<h1 id="manipulando-loops-em-python">Manipulando loops em <em>Python</em></h1>
+<h2 id="loops-aninhados">loops aninhados</h2>
+<pre><code class="python">for i in range(0,5):
+    for a in range(0,5):
+        print(a)
+</code></pre>
+
+<h2 id="operando-valores-em-lista-usando-for">Operando valores em lista usando for</h2>
+<pre><code class="python">listab = [32,53,85,10,15,17,19]
+soma = 0
+for i in listab:
+    double_i = i * 2
+    soma += double_i
+print(soma)
+</code></pre>
+
+<h2 id="loops-em-listas-dentro-de-listas">loops em listas dentro de listas</h2>
+<pre><code class="python">listaa = [[1,2,3],[10,15,14],[10.1,8.7,2.3]]
+for valor in lista:
+    print(valor)
+</code></pre>
+
+<h2 id="contar-a-quantidade-de-itens-de-uma-lista">Contar a quantidade de itens de uma lista</h2>
+<pre><code class="python">lista1 = [5,10,13,17]
+count = 0
+for item in lista1:
+    count += 1  
+print(count)
+</code></pre>
+
+<h2 id="contar-a-quantidade-de-colunas-de-um-item-da-lista">Contar a quantidade de colunas de um item da lista</h2>
+<pre><code class="python">lista2 = [[1,2,3],[3,3,5],[5,6,7]]
+primeiro_item = lista2[0]
+count = 0
+for colunas in primeiro_item:
+    count += 1
+print(count)
+</code></pre>
+
+<h2 id="pesquisando-em-listas">Pesquisando em listas</h2>
+<pre><code class="python">lista3 = [5,6,7,8,9,10]
+for item in lista3:
+    if item == 5:
+        print(&quot;Número 5 encontrado!&quot;)
+</code></pre>
+
+<h2 id="usando-while-para-contar-de-0-a-5">Usando <em>while</em> para contar de 0 a 5</h2>
+<pre><code class="python">count = 0
+while count &lt; 6:
+    print(count)
+    count += 1
+</code></pre>
+
+<h2 id="usando-else-para-dar-stop-de-loop">Usando <em>else</em> para dar stop de loop</h2>
+<pre><code class="python">count = 0
+while count &lt; 6:
+    print(&quot;Contando... &quot;,count)
+    count += 1
+else:
+    print(&quot;Contagem encerrada!&quot;)
+</code></pre>
+
+<h2 id="pular-iteracoes-em-um-loop">Pular iterações em um loop</h2>
+<pre><code class="python">for nome in 'jose':
+    if nome == 's':
+        continue
+    print(nome)
+</code></pre>
+
+<h2 id="exemplo-de-verificacao-de-numero-primo-atraves-de-loops">Exemplo de verificação de número primo através de loops</h2>
+<pre><code class="python">for i in range(2,30):
+    j = 2
+    counter = 0
+    while j &lt; i:
+        if i % j == 0:
+            counter = 1
+            j += 1
+        else:
+            j = j + 1
+
+    if counter == 0:
+        print(str(i)+'é um número primo')
+        counter = 0
+    else:
+        counter = 0
+</code></pre>
+
+<h2 id="usando-range-para-contagem-decrescente">Usando <em>Range</em> para contagem decrescente</h2>
+<pre><code class="python">for i in range(0,-12,-2):
+    print(i)
+</code></pre>
+
+<h2 id="usando-range-para-imprimir-os-itens-da-lista">Usando <em>Range</em> para imprimir os itens da lista</h2>
+<pre><code class="python">lista4 = ['Banana','Uva','Laranja','Maça']
+comprimento_lista4 = len(lista4)
+for i in range(0,comprimento_lista4):
+    print(lista4[i])
+</code></pre></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+
+        
+        
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>var base_url = "../.."</script>
+    
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>

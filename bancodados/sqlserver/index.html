@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="../../img/favicon.ico">
+
+    
+    <title>SQL Server - DENIS T. SILVA</title>
+    
+
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
+    <link href="../../css/highlight.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../..">DENIS T. SILVA</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../projetos/bethehero/">Projetos</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../git/">Git-GitHub</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Python <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../python/python_scripts/">Scripts Python</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../python/flask_first/">Freamework Flask</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">NodeJS <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../nodejs/postgress_node/">Express-Postgres</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../javascript_scripts/">JavaScript</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ambiente Virtual <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../virtualenv/">virtualenv</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../virtualenv2/">venv</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Banco de Dados <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="./">SQL Server</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../fico/">FICO Systems</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../../virtualenv2/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../../fico/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#sql-server">SQL SERVER</a></li>
+            <li class="second-level"><a href="#restaurar-banco-de-dados-externo">Restaurar banco de dados externo</a></li>
+                
+            <li class="second-level"><a href="#primeiros-comandos-de-query-consulta">Primeiros comandos de Query (Consulta)</a></li>
+                
+                <li class="third-level"><a href="#comando-select">Comando SELECT</a></li>
+                <li class="third-level"><a href="#comando-distinct">Comando DISTINCT</a></li>
+                <li class="third-level"><a href="#comando-where">Comando WHERE</a></li>
+                <li class="third-level"><a href="#comandos-count-e-group-by">Comandos COUNT e GROUP BY</a></li>
+                <li class="third-level"><a href="#comandos-where-utilizando-operadores">Comandos WHERE utilizando operadores</a></li>
+                <li class="third-level"><a href="#comandos-top">Comandos TOP</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="sql-server">SQL SERVER</h1>
+<h3 id="restaurar-banco-de-dados-externo">Restaurar banco de dados externo</h3>
+<p><img alt="1" src="img\img-sqlserver\1.png" />
+<img alt="2" src="img\img-sqlserver\2.png" />
+<img alt="3" src="img\img-sqlserver\3.png" /></p>
+<h3 id="primeiros-comandos-de-query-consulta">Primeiros comandos de <em>Query</em> (Consulta)</h3>
+<h4 id="comando-select">Comando <em>SELECT</em></h4>
+<ul>
+<li>Seleção de nomes e sobrenomes das pessoas;</li>
+</ul>
+<pre><code>SELECT FirstName, LastName FROM person.Person;
+</code></pre>
+
+<p><img alt="4" src="img\img-sqlserver\4.png" /></p>
+<h4 id="comando-distinct">Comando <em>DISTINCT</em></h4>
+<ul>
+<li>Seleção de nomes únicos das pessoas;</li>
+</ul>
+<pre><code>SELECT DISTINCT LastName FROM person.Person;
+</code></pre>
+
+<p><img alt="5" src="img\img-sqlserver\5.png" /></p>
+<h4 id="comando-where">Comando <em>WHERE</em></h4>
+<ul>
+<li>Seleção de pessoas com o mesmo sobrenome;</li>
+</ul>
+<pre><code>SELECT FirstName, LastName FROM person.Person
+WHERE LastName = 'Stewart';
+</code></pre>
+
+<p><img alt="6" src="img\img-sqlserver\6.png" /></p>
+<ul>
+<li>Consulta dos produtos da tabela <em>Production.Product</em>;</li>
+</ul>
+<pre><code>SELECT * FROM Production.Product;
+</code></pre>
+
+<p><img alt="7" src="img\img-sqlserver\7.png" /></p>
+<ul>
+<li>Seleção de produtos de cores azul ou preta;</li>
+</ul>
+<pre><code>SELECT * FROM production.Product
+WHERE Color = 'Black' or Color = 'Blue';
+</code></pre>
+
+<p><img alt="8" src="img\img-sqlserver\8.png" /></p>
+<h4 id="comandos-count-e-group-by">Comandos <em>COUNT</em> e <em>GROUP BY</em></h4>
+<ul>
+<li>Consulta das cores de produtos disponíveis e suas quantidades;</li>
+</ul>
+<pre><code>SELECT Color, COUNT(Color) AS Qtd FROM production.Product
+GROUP BY Color;
+</code></pre>
+
+<p><img alt="9" src="img\img-sqlserver\9.png" /></p>
+<ul>
+<li>Consulta de duas cores de produtos (preto e azul) e suas quantidades;</li>
+</ul>
+<pre><code>SELECT Color, COUNT(Color) AS Qtd FROM production.Product
+WHERE Color = 'Black' or Color = 'Blue'
+GROUP BY Color;
+</code></pre>
+
+<p><img alt="10" src="img\img-sqlserver\10.png" /></p>
+<ul>
+<li>Consulta das títulos de pessoas disponíveis e suas quantidades;</li>
+</ul>
+<pre><code>SELECT title, count(title) AS 'Qtd' FROM Person.Person
+GROUP BY Title;
+</code></pre>
+
+<p><img alt="101" src="img\img-sqlserver\101.png" /></p>
+<h4 id="comandos-where-utilizando-operadores">Comandos <em>WHERE</em> utilizando operadores</h4>
+<ul>
+<li>Consulta de produtos usando o operador <em>diferente &lt;&gt;</em>, para visualizar somente produtos diferentes do valor informado no <em>WHERE</em>;</li>
+</ul>
+<pre><code>SELECT * from production.Product
+WHERE color &lt;&gt; 'black';
+</code></pre>
+
+<ul>
+<li>Consulta de nomes de produtos entre valores específicos de peso;</li>
+</ul>
+<pre><code>SELECT Name,weight from Production.Product
+WHERE weight &gt; 500 and weight &lt; 700;
+</code></pre>
+
+<h4 id="comandos-top">Comandos <em>TOP</em></h4>
+<ul>
+<li>Consulta utilizando um limitador de linhas na pesquisa;</li>
+</ul>
+<pre><code>SELECT TOP 5 * FROM Production.Product;
+</code></pre></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+
+        
+        
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>var base_url = "../.."</script>
+    
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>

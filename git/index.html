@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="../img/favicon.ico">
+
+    
+    <title>Git-GitHub - DENIS T. SILVA</title>
+    
+
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+    <link href="../css/highlight.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="..">DENIS T. SILVA</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../projetos/bethehero/">Projetos</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Git-GitHub</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Python <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../python/python_scripts/">Scripts Python</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../python/flask_first/">Freamework Flask</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">NodeJS <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../nodejs/postgress_node/">Express-Postgres</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../javascript_scripts/">JavaScript</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ambiente Virtual <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../virtualenv/">virtualenv</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../virtualenv2/">venv</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Banco de Dados <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../bancodados/sqlserver/">SQL Server</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../fico/">FICO Systems</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../projetos/bethehero/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../python/python_scripts/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#comandos-basicos-do-git">Comandos Básicos do Git</a></li>
+            <li class="second-level"><a href="#manipular-branchs">Manipular Branch's </a></li>
+                
+                <li class="third-level"><a href="#criar-novo-branch-e-clona-lo-em-repositorio-github">Criar novo Branch e clona-lo em repositório GitHub</a></li>
+            <li class="second-level"><a href="#apagar-o-branch-localmente-no-git">Apagar o branch localmente no Git</a></li>
+                
+            <li class="second-level"><a href="#apagar-o-branch-remoto-no-github">Apagar o branch remoto no Github</a></li>
+                
+        <li class="first-level "><a href="#comandos-de-deploy">Comandos de Deploy</a></li>
+            <li class="second-level"><a href="#deploy-do-mkdocs-no-github">Deploy do Mkdocs no Github</a></li>
+                
+            <li class="second-level"><a href="#atualizacao-do-mkdocs-e-deploy-no-github">Atualizacao do Mkdocs e Deploy no Github</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="comandos-basicos-do-git">Comandos Básicos do Git</h1>
+<blockquote>
+<p>Crie um arquivo .gitignore para ignorar arquivos do projeto: touch .gitignore e escreva os nomes dos arquivos que não deseja commitar;</p>
+</blockquote>
+<pre><code class="python">$ git init -&gt; #Inicia um Branch(Ponteiro) do tipo Master no repositório local;
+
+$ git status -&gt; #Verifica em que estágio estão os arquivos, se estão em Stanging Area ou já se estão comitados;
+
+$ git add &lt;nome do arquivo&gt; -&gt; #Adiciona arquivos Únicos em Staging Area; 
+
+$ git add . -&gt; #Adiciona Todos os arquivos da pasta local em Staging Area;
+
+$ git commit -m &quot;Descrição de histórico&quot; -&gt; #Traqueia/Comita os arquivos que estão em Staging Area;
+
+$ git commite -a -m &quot;nome das mudancas&quot; -&gt; #Faz Add e Commite no mesmo comando;
+
+$ git diff -&gt; #Verifica arquivos modificados e suas modificações; 
+
+$ git diff --staged -&gt; #Verificar arquivos modificados e suas modificacoes de arquivos em Staging Area; 
+
+$ git log -&gt; #Verifica todos logs feitos no projeto; 
+
+$ git log --pretty=oneline -&gt; #Verifica todos logs e seus códigos;
+
+$ git log -p -&gt; #Verifica todos logs feitos no projeto e o que foi feito neles;
+
+$ git log -p -(quantidade) -&gt; #Verifica todos logs feitos no projeto e o que foi feito neles, mas filtrando a quantidade de logs;
+
+$ gitk -&gt; #Abrir App para visualizar versoes do projeto;
+
+$ git commit --amend -m &quot;nome do log procurado (edicao)&quot; -&gt; #Editar um Commit realizado;
+
+$ git reset HEAD &lt;nome do arquivo&gt; -&gt; #Retirar arquivos do Staging Area, que foram feitos Add; 
+
+$ git checkout -- &lt;nome do arquivo&gt; -&gt; #Retorna o arquivo para ultima modificação;
+
+$ git rm &lt;nome do arquivo&gt; -&gt; #Deletar arquivos;
+
+$ git tag -a &quot;nometag&quot; -m &quot;Descricaotag&quot; -&gt; #Adicionar TAG no projeto;
+
+$ git tag -&gt; #Verifica TAGs do projeto; 
+
+$ git tag -a &quot;nometag&quot; -m &quot;Chave do log&quot; -&gt; #Adicionar TAG em log feito anteriormente;
+
+$ git show &quot;nometag&quot; -&gt; #Verificar dados de uma TAG;
+
+$ git checkout &quot;nometag&quot; -&gt; #Utilizar a TAG para mudar a versão do projeto;
+</code></pre>
+
+<h2 id="manipular-branchs">Manipular Branch's </h2></h2>
+<h3 id="criar-novo-branch-e-clona-lo-em-repositorio-github">Criar novo Branch e clona-lo em repositório GitHub</h3>
+<pre><code class="python">$ git checkout -b &lt;nome_branch&gt; -&gt; #Criar um novo branch
+
+$ git remote add &lt;nome_branch&gt; &lt;link_github&gt; - #Direciona o endereço do repositório Github;
+
+$ git push -u origin &lt;nome_branch&gt; -&gt; #Cria um clone do repositório local no repositório do Github;
+
+$ mkdocs gh-deploy -&gt; #Realiza o Deploy para o servidor do Github.
+</code></pre>
+
+<h2 id="apagar-o-branch-localmente-no-git">Apagar o branch localmente no Git</h2>
+<pre><code class="python">$ git branch -D &lt;nome do branch&gt; 
+</code></pre>
+
+<h2 id="apagar-o-branch-remoto-no-github">Apagar o branch remoto no Github</h3></h2>
+<blockquote>
+<p>Obs: Faça um backup dos arquivos do repositório que será deletado, pois este comando deletará inclusive os arquivos no repositório local de sua máquina;</p>
+</blockquote>
+<pre><code class="python">$ git push origin --delete &lt;nome do branch&gt;
+</code></pre>
+
+<h1 id="comandos-de-deploy">Comandos de Deploy</h1>
+<h2 id="deploy-do-mkdocs-no-github">Deploy do Mkdocs no Github</h2>
+<pre><code class="python">$ git init -&gt; #Inicia um Branch(Ponteiro) do tipo Master no repositório local da pasta;
+
+Crie o arquivos .gitignore para informar o nome de arquivos que não irão para Deploy;
+
+$ git status -&gt; #Verifica em que estágio estão os arquivos, se estão em Stanging Area ou já se estão comitados;
+
+$ git add . -&gt; #Adiciona os arquivos em Stanging Area;
+
+$ git commit -m &quot;Descrição de histórico&quot; -&gt; #Traqueia/Comita os arquivos que estão em Staging Area;
+
+Criar um repositório no Github;
+
+Vá em criar um clone do Repositório no GitHub e copie o url;
+
+$ git remote add origin &lt;link do github de clone&gt; -&gt; #Direciona o endereço do repositório Github;
+
+$ git push -u origin &lt;nome_branch&gt; -&gt; #Cria um clone do repositório local no repositório do Github;
+
+$ mkdocs gh-deploy -&gt; #Realiza o Deploy para o servidor do Github.
+</code></pre>
+
+<h2 id="atualizacao-do-mkdocs-e-deploy-no-github">Atualizacao do Mkdocs e Deploy no Github</h2>
+<pre><code class="python">$ git status -&gt; #Verifica em que estágio estão os arquivos, se estão em Stanging Area ou já se estão comitados;
+
+$ git add . -&gt; #Adiciona os arquivos em Stanging Area;
+
+$ git commit -m &quot;Descrição de histórico&quot; -&gt; #Traqueia/Comita os arquivos que estão em Staging Area;
+
+$ git push -u origin &lt;nome_branch&gt; -&gt; #Cria um clone do repositório local no repositório do Github;
+
+$ mkdocs gh-deploy -&gt; #Realiza o Deploy para o servidor do Github.
+</code></pre></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+
+        
+        
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
