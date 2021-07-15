@@ -11,7 +11,7 @@
     <link rel="../img/favicon.ico">
 
     
-    <title>venv - DENIS T. SILVA</title>
+    <title>FICO Systems - DENIS T. SILVA</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -61,7 +61,7 @@
 
             <!-- Main title -->
 
-            <a class="navbar-brand" href="..">DENIS T. SILVA</a>
+            <a class="navbar-brand" href="../index.html">DENIS T. SILVA</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -71,19 +71,52 @@
                 
                 
                     <li >
-                        <a href="..">Home</a>
+                        <a href="../index.html">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projetos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../projetos/bethehero.html">Be-The-Hero</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../projetos/django-multilang.html">Django-Multi-Language</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../projetos/django-apilibrary.html">Django-Api-Library</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../projetos/django-reactsample.html">Django-React-Sample</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../projetos/netcore-apimongo.html">.NET-Api-MongoDB</a>
+</li>
+
+                        
+                        </ul>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../projetos/bethehero/">Projetos</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../git/">Git-GitHub</a>
+                        <a href="git.html">Git-GitHub</a>
                     </li>
                 
                 
@@ -94,13 +127,19 @@
                         
                             
 <li >
-    <a href="../python/python_scripts/">Scripts Python</a>
+    <a href="../python/python_scripts.html">Scripts Python</a>
 </li>
 
                         
                             
 <li >
-    <a href="../python/flask_first/">Freamework Flask</a>
+    <a href="../python/flask_first.html">Framework Flask</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../python/django-migracao-db.html">Django-Migração de banco</a>
 </li>
 
                         
@@ -115,7 +154,7 @@
                         
                             
 <li >
-    <a href="../nodejs/postgress_node/">Express-Postgres</a>
+    <a href="../nodejs/postgress_node.html">Express-Postgres</a>
 </li>
 
                         
@@ -124,25 +163,19 @@
                 
                 
                 
-                    <li >
-                        <a href="../javascript_scripts/">JavaScript</a>
-                    </li>
-                
-                
-                
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ambiente Virtual <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../virtualenv/">virtualenv</a>
+    <a href="virtualenv.html">virtualenv</a>
 </li>
 
                         
                             
-<li class="active">
-    <a href="./">venv</a>
+<li >
+    <a href="venv.html">venv</a>
 </li>
 
                         
@@ -157,7 +190,7 @@
                         
                             
 <li >
-    <a href="../bancodados/sqlserver/">SQL Server</a>
+    <a href="../bancodados/sqlserver.html">SQL Server</a>
 </li>
 
                         
@@ -166,8 +199,8 @@
                 
                 
                 
-                    <li >
-                        <a href="../fico/">FICO Systems</a>
+                    <li class="active">
+                        <a href="fico.html">FICO Systems</a>
                     </li>
                 
                 
@@ -180,12 +213,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../virtualenv/">
+                        <a rel="prev" href="../bancodados/sqlserver.html">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li >
-                        <a rel="next" href="../bancodados/sqlserver/">
+                    <li class="disabled">
+                        <a rel="next" >
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -199,43 +232,32 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#ambiente-virtual-2">Ambiente Virtual 2</a></li>
-            <li class="second-level"><a href="#criando-ambiente-virtual-virtualenv-no-windows">Criando Ambiente Virtual virtualenv no Windows</a></li>
+        <li class="first-level active"><a href="#preparacao-de-ambiente">Preparação de ambiente</a></li>
+            <li class="second-level"><a href="#instalar-do-java-jfk-82-ou-superior">Instalar do Java jfk-8.2 ou superior</a></li>
                 
+            <li class="second-level"><a href="#instalar-o-blaze-advisor">Instalar o Blaze Advisor</a></li>
+                
+            <li class="second-level"><a href="#instalacao-do-idle-eclipse">Instalação do IDLE Eclipse</a></li>
+                
+                <li class="third-level"><a href="#estrutura-de-pastas-no-diretorio-do-blaze">Estrutura de Pastas no diretório do Blaze</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="ambiente-virtual-2">Ambiente Virtual 2</h1>
-<h3 id="criando-ambiente-virtual-virtualenv-no-windows">Criando Ambiente Virtual <em>virtualenv</em> no Windows</h3>
-<p>Considerando que voce ja tem o Python instalado, bem como as variaveis de ambiente e o pip, siga o procedimento a seguir.</p>
-<blockquote>
-<p>Instala pacote para criação de ambientes virtuais</p>
-</blockquote>
-<pre><code>pip install virtualenv
-</code></pre>
-
-<blockquote>
-<p>Instalar pacote para gerenciamento dos ambientes virtuais</p>
-</blockquote>
-<pre><code>pip install virtualenvwrapper-win
-</code></pre>
-
-<blockquote>
-<p>Crie um ambiente virtual</p>
-</blockquote>
-<pre><code>mkvirtualenv nome_do_ambiente
-</code></pre>
-
-<blockquote>
-<p>Ative o ambiente virtual recém criado</p>
-</blockquote>
-<pre><code>workon nome_do_ambiente
-</code></pre>
-
-<blockquote>
-<p>Agora é só instalar os pacotes que deseja ter nesse ambiente virtual que você acabou de criar e ativar. Você pode ter quantos ambientes desejar e eles, por padrão, ficam dentro no diretório Envs dentro da pasta do usuário. Por exemplo: C:\Users\user\Envs</p>
-</blockquote></div>
+<h1 id="preparacao-de-ambiente">Preparação de ambiente</h1>
+<h2 id="instalar-do-java-jfk-82-ou-superior">Instalar do Java jfk-8.2 ou superior</h2>
+<h2 id="instalar-o-blaze-advisor">Instalar o Blaze Advisor</h2>
+<h2 id="instalacao-do-idle-eclipse">Instalação do IDLE Eclipse</h2>
+<h3 id="estrutura-de-pastas-no-diretorio-do-blaze">Estrutura de Pastas no diretório do Blaze</h3>
+<pre><code>C:\Blaze
+-Advisor75
+-License
+-Uninstall
+-Projetos  ----------&gt; Pasta criada
+  |__eclipse   ------&gt; Repositorio do eclipse
+  |__Repositorio
+  |__workspace-eclipse
+</code></pre></div>
         
         
     </div>
