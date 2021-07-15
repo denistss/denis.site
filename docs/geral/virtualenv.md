@@ -1,6 +1,4 @@
-#Ambiente Virtual 2
-
-###Criando Ambiente Virtual _virtualenv_ no Windows
+## Criando Ambiente Virtual _virtualenv_ no Windows
 
 Considerando que voce ja tem o Python instalado, bem como as variaveis de ambiente e o pip, siga o procedimento a seguir.
 

@@ -1,6 +1,4 @@
-#Ambiente Virtual 
-
-###Criando Ambiente Virtual _venv_ no Windows
+## Criando Ambiente Virtual _venv_ no Windows
 >Crie sua pasta de _Environments_ e em seu prompt do windows digite o comando abaixo para criar o ambiente virtual _venv_;
 ```
 C:\Users\denis\Environments\Flask_Form>python -m venv <nome_de_sua_env>

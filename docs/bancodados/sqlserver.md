@@ -2,9 +2,11 @@
 
 ###Restaurar banco de dados externo
 
-![1](img\img-sqlserver\1.png)
-![2](img\img-sqlserver\2.png)
-![3](img\img-sqlserver\3.png)
+![1](img-sqlserver\1.png)
+
+![2](img-sqlserver\2.png)
+
+![3](img-sqlserver\3.png)
 
 ###Primeiros comandos de *Query* (Consulta)
 
@@ -14,7 +16,7 @@
 ```
 SELECT FirstName, LastName FROM person.Person;
 ```
-![4](img\img-sqlserver\4.png)
+![4](img-sqlserver\4.png)
 
 ####Comando *DISTINCT*
 
@@ -22,7 +24,7 @@ SELECT FirstName, LastName FROM person.Person;
 ```
 SELECT DISTINCT LastName FROM person.Person;
 ```
-![5](img\img-sqlserver\5.png)
+![5](img-sqlserver\5.png)
 
 ####Comando *WHERE*
 
@@ -32,20 +34,20 @@ SELECT FirstName, LastName FROM person.Person
 WHERE LastName = 'Stewart';
 ```
 
-![6](img\img-sqlserver\6.png)
+![6](img-sqlserver\6.png)
 
 * Consulta dos produtos da tabela *Production.Product*;
 ```
 SELECT * FROM Production.Product;
 ```
-![7](img\img-sqlserver\7.png)
+![7](img-sqlserver\7.png)
 
 * Seleção de produtos de cores azul ou preta;
 ```
 SELECT * FROM production.Product
 WHERE Color = 'Black' or Color = 'Blue';
 ```
-![8](img\img-sqlserver\8.png)
+![8](img-sqlserver\8.png)
 
 ####Comandos *COUNT* e *GROUP BY*
 
@@ -54,7 +56,7 @@ WHERE Color = 'Black' or Color = 'Blue';
 SELECT Color, COUNT(Color) AS Qtd FROM production.Product
 GROUP BY Color;
 ```
-![9](img\img-sqlserver\9.png)
+![9](img-sqlserver\9.png)
 
 * Consulta de duas cores de produtos (preto e azul) e suas quantidades;
 ```
@@ -62,14 +64,14 @@ SELECT Color, COUNT(Color) AS Qtd FROM production.Product
 WHERE Color = 'Black' or Color = 'Blue'
 GROUP BY Color;
 ```
-![10](img\img-sqlserver\10.png)
+![10](img-sqlserver\10.png)
 
 * Consulta das títulos de pessoas disponíveis e suas quantidades;
 ```
 SELECT title, count(title) AS 'Qtd' FROM Person.Person
 GROUP BY Title;
 ```
-![101](img\img-sqlserver\101.png)
+![101](img-sqlserver\101.png)
 
 ####Comandos *WHERE* utilizando operadores
 

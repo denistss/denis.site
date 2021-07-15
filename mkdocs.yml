@@ -4,17 +4,22 @@ theme:
   custom_dir: 'cinder'
 nav:
     - Home: index.md
-    - Projetos: projetos/bethehero.md
-    - Git-GitHub: git.md
+    - Projetos: 
+      - 'Be-The-Hero': 'projetos/bethehero.md'
+      - 'Django-Multi-Language': 'projetos/django-multilang.md'
+      - 'Django-Api-Library': 'projetos/django-apilibrary.md'
+      - 'Django-React-Sample': 'projetos/django-reactsample.md'
+      - '.NET-Api-MongoDB': 'projetos/netcore-apimongo.md'
+    - Git-GitHub: geral/git.md
     - Python:
       - 'Scripts Python': 'python/python_scripts.md'
-      - 'Freamework Flask': 'python/flask_first.md'
+      - 'Framework Flask': 'python/flask_first.md'
+      - 'Django-Migração de banco': 'python/django-migracao-db.md'
     - NodeJS:
-      - 'Express-Postgres': 'nodejs/postgress_node.md' 
-    - JavaScript: javascript_scripts.md
+      - 'Express-Postgres': 'nodejs/postgress_node.md'  
     - Ambiente Virtual:
-      - 'virtualenv': 'virtualenv.md'
-      - 'venv': 'virtualenv2.md'
+      - 'virtualenv': 'geral/virtualenv.md'
+      - 'venv': 'geral/venv.md'
     - Banco de Dados:
       - 'SQL Server': 'bancodados/sqlserver.md'
-    - FICO Systems: fico.md
+    - FICO Systems: geral/fico.md

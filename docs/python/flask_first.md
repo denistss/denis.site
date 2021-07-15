@@ -11,7 +11,7 @@ MVC é nada mais que um padrão de arquitetura de software, separando sua aplica
 **View**: Responsável por fazer a interação com o usuário, fazendo a exibição de sua interface através de linguagens de marcação como: html e xml;
 **Controller**: Responsável por receber as requisições do usuário e controlar qual model será usado e em qual view será exibida;
 
-![FLASK11](../img/img-flask/flask11.png)
+![FLASK11](img-flask/flask11.png)
 
 > Foi criado uma lógica bem simples para analisar se o número digitado é **Par** ou **Impar**, em seguida atribuido esta lógica em uma função *def* que irá executar todo este trabalho de decisão. Vamos colocar o todo o código no arquivo de nome *main.py*;
 ```
@@ -121,4 +121,4 @@ Agora é só rodar nossa aplicação executando o comando *python main.py* no pr
 
 * Nossa aplicação ficará com esta cara:
 
-![FLASK1](../img/img-flask/flask1.png)
+![FLASK1](img-flask/flask1.png)
